@@ -54,7 +54,7 @@ def organise(i, slp):
     # time.sleep(slp)
     l = 0
     while (l < 1):
-        p = get_content('http://menvshenying.lofter.com/?page=%d'%i, hed2)
+        p = get_content('http://%s/?page=%d'%(album_host, i), hed2)
         lst = finder.findall(p)
         l = len(lst) + 1 # 修改了finder， 无需循环尝试了
         # ppt(l)
