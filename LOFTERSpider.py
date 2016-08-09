@@ -32,7 +32,7 @@ tls = list()
 ppp = threading.Thread(target = pting)
 ppp.start()
 if get_gif == True:
-    finder = re.compile(r'<img src="(http://(imglf\d?\.(?:nosdn\.127|ph\.126)\.net)(?:/img)?/[=a-zA-Z\d/\-]+\.(?:gif|jpg)[\?"]')
+    finder = re.compile(r'<img src="(http://(imglf\d?\.(?:nosdn\.127|ph\.126)\.net)(?:/img)?/[=a-zA-Z\d/\-]+\.(?:gif|jpg))[\?"]')
 hed = {
     "host": "imglf0.nosdn.127.net",
     "connection": "keep-alive",
