@@ -1,6 +1,6 @@
 # LOFTER Spider / LOFTER 图片爬虫
 
-An easy LOFTER spider which requires no extra independencies.  
+An easy LOFTER spider which requires no extra dependencies.  
 
 ***
 
